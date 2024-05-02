@@ -13,7 +13,92 @@
             <p class="parrafo">Thank you for taking the time to help us improve the platform</p>
         </div>
         <form action="" class="contFormulario">
-            
+            <!-- Input de Nombre -->
+            <div class="subCont contNombre">
+                <p class="parrafo">Name</p>
+                <label for="">
+                    <input class=" inputAncho" type="text"/>
+                </label>
+            </div>
+            <!-- Input de Correo Electronico -->
+            <div class="subCont contCorreo">
+                <p class="parrafo">Email</p>
+                <label for="">
+                    <input class=" inputAncho" type="email"  name="" id="">
+                </label>
+            </div>
+            <!-- Input de Edad -->
+            <div class="subCont contEdad">
+                <p class="parrafo">Age <span>(opcional)</span></p>
+                <label for="">
+                    <input class=" inputAncho" type="number" name="" id="">
+                </label>
+            </div>
+            <!-- Opciones de Ocupacion -->
+            <div class="subCont contOpciones">
+                <p class="parrafo">Which option best describes your current role?</p>
+                <label for="">
+                    <select  class=" inputAncho" name="" id="">
+                        <option value="">Select current role</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select>
+                </label>
+            </div>
+            <!-- Radio de recomendacion a colegas -->
+            <div class="subCont contRadio">
+                <p class="parrafo">Would you recommend freeCodeCamp to a friend?</p>
+                <label  for="">
+                    <Input class="inRadio" type="radio" name="Definitely-maybe-notsure" checked>
+                    Definitely
+                </label>
+                <label  for="">
+                    <Input class="inRadio" type="radio" name="Definitely-maybe-notsure">
+                    Maybe
+                </label>
+                <label for="">
+                    <Input class="inRadio" type="radio" name="Definitely-maybe-notsure">
+                    Not sure
+                </label>
+            </div>
+            <!-- Opciones de la seccion favorita en freeCodeCamp -->
+            <div class="subCont contFavorito">  
+                <p class="parrafo">What is your favorite feature of freeCodeCamp</p>
+                <select class=" inputAncho" name="" id="">
+                    <option value="">Select an option</option>
+                    <option value="">Challenges</option>
+                    <option value="">Projects</option>
+                    <option value="">Community</option>
+                    <option value="">Open Sources</option>
+                </select>
+            </div>
+           <!-- Checkbox de que es lo que habria que mejorar en esta Web -->
+            <div class="subCont contCheckbox"> 
+                <p class="parrafo">Whats would you like to see improved? <span>(Check all that apply)</span></p>
+                <label for=""><input class="inCheck" type="checkbox">  Front-end Projects</label>
+                <label for=""><input class="inCheck" type="checkbox">  Back-end Projects</label>
+                <label for=""><input class="inCheck" type="checkbox">  Data Visualization</label>
+                <label for=""><input class="inCheck" type="checkbox">  Challenges</label>
+                <label for=""><input class="inCheck" type="checkbox">  Open Source Community</label>
+                <label for=""><input class="inCheck" type="checkbox">  Glitter help rooms</label>
+                <label for=""><input class="inCheck" type="checkbox">  Videos</label>
+                <label for=""><input class="inCheck" type="checkbox">  City Meetups</label>
+                <label for=""><input class="inCheck" type="checkbox">  Wiki</label>
+                <label for=""><input class="inCheck" type="checkbox">  Forum</label>
+                <label for=""><input class="inCheck" type="checkbox">  Additional Courses</label>
+            </div>
+            <!-- Textarea de comentarios generales -->
+            <div class="subCont contSugerencias">
+                <p class="parrafo">Anny comments or suggestions?</p>
+                <textarea class=" inputAncho" name="" id="" cols="50" rows="7"></textarea>
+            </div>
+            <!-- Button de envio de Formulario -->
+            <div class="subCont contBtnEnvio">
+                <button class="btn">Submit</button>
+            </div>
         </form>
     </section>
 </body>
